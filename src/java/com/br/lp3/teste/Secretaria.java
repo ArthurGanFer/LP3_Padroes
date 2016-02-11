@@ -5,11 +5,13 @@
  */
 package com.br.lp3.teste;
 
+import java.io.Serializable;
+
 /**
  *
  * @author 31338283
  */
-public class Secretaria implements Funcionario {
+public class Secretaria implements Funcionario, Serializable {
 
     private String nome;
     private int codigo;
